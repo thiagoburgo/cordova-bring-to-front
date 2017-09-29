@@ -37,6 +37,7 @@ __decorate([
 WindowBringer = __decorate([
     Plugin({
         pluginName: "WindowBringer",
+        pluginRef: "window.plugins.bringtofront",
         plugin: "cordova-bring-to-front",
         repo: "https://github.com/thiagoburgo/cordova-bring-to-front",
         platforms: ["Android"]
