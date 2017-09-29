@@ -17,9 +17,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Injectable } from '@angular/core';
-import { Cordova, Plugin, IonicNativePlugin } from '@ionic-native/core';
-import 'rxjs/add/observable/merge';
+import { Injectable } from "@angular/core";
+import { Cordova, Plugin, IonicNativePlugin } from "@ionic-native/core";
+import "rxjs/add/observable/merge";
 var WindowBringer = (function (_super) {
     __extends(WindowBringer, _super);
     function WindowBringer() {
@@ -36,10 +36,10 @@ __decorate([
 ], WindowBringer.prototype, "bringToFront", null);
 WindowBringer = __decorate([
     Plugin({
-        pluginName: 'WindowBringer',
-        plugin: 'cordova-bring-to-front',
-        repo: 'https://github.com/thiagoburgo/cordova-bring-to-front',
-        platforms: ['Android']
+        pluginName: "WindowBringer",
+        plugin: "cordova-bring-to-front",
+        repo: "https://github.com/thiagoburgo/cordova-bring-to-front",
+        platforms: ["Android"]
     }),
     Injectable()
 ], WindowBringer);
