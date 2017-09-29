@@ -10,7 +10,7 @@
     "description": "Brings current activity to front",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thiagoburgo/cordova-bring-to-front.git"
+        "url": "https://github.com/thiagoburgo/cordova-bring-to-front.git"
     },
     "devDependencies": {
         "@angular/core": "4.1.3",
