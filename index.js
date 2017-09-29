@@ -25,13 +25,13 @@ var WindowBringer = (function (_super) {
     function WindowBringer() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    WindowBringer.prototype.bringToFront = function (successCallback, errorCallback) { return; };
+    WindowBringer.prototype.bringToFront = function () { return; };
     return WindowBringer;
 }(IonicNativePlugin));
 __decorate([
     Cordova(),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
 ], WindowBringer.prototype, "bringToFront", null);
 WindowBringer = __decorate([

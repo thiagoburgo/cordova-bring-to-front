@@ -13,6 +13,6 @@ import 'rxjs/add/observable/merge';
 export class WindowBringer extends IonicNativePlugin {
 
     @Cordova()
-    bringToFront(successCallback:any, errorCallback:any) { return; }
+    bringToFront() { return; }
 
 }

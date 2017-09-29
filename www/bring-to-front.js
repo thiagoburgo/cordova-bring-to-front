@@ -2,9 +2,9 @@ var argscheck = require('cordova/argscheck');
 var exec = require('cordova/exec');
 
 function WindowBringer() {
-    this.bringToFront = function(successCallback, errorCallback) {
+    this.bringToFront = function() {
         argscheck.checkArgs('fF', 'WindowBringer.bringToFront', arguments);
-        exec(successCallback, errorCallback, 'WindowBringer', 'bringToFront', []);
+        exec(null, null, 'WindowBringer', 'bringToFront', []);
     };
 }
 
